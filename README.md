@@ -11,7 +11,7 @@ These packages need to be installed:
 
 ## Quick start
 
-1. Clone the git repo — `git clone `
+1. Clone the git repo — `https://github.com/onedanko/factorialChallenge.git`
 
 2. Open the project
 
