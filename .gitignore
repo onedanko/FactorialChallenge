@@ -1,0 +1,6 @@
+### Reports ###
+allure-report/
+allure-results/
+### Node ###
+node_modules/
+

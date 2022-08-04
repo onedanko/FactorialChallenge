@@ -1,0 +1,25 @@
+{
+    "name": "factorial-tests",
+    "version": "0.1.0",
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.20.7",
+        "@wdio/cli": "^7.20.9",
+        "@wdio/cucumber-framework": "^7.20.8",
+        "@wdio/local-runner": "^7.20.9",
+        "@wdio/spec-reporter": "^7.20.8",
+        "chromedriver": "^104.0.0",
+        "wdio-chromedriver-service": "^7.3.2",
+        "wdio-intercept-service": "^4.2.2"
+    },
+    "scripts": {
+        "factorial": "wdio run wdio.conf.js --suite factorial", 
+        "report": "allure generate --clean allure-results && allure open"
+    },
+    "dependencies": {
+        "@babel/cli": "^7.18.10",
+        "@babel/core": "^7.18.10",
+        "@babel/preset-env": "^7.18.10",
+        "@babel/register": "^7.18.9",
+        "chai": "^4.3.6"
+    }
+}
